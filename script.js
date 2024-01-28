@@ -11,12 +11,3 @@ function pro() {
   });
 }
 
-let hey;
-
-const her = pro()
-  .then((data) => {
-	  outpu.innerText = data;
-  })
-  .catch((err) => {
-    console.log(err);
-  });
