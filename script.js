@@ -11,3 +11,11 @@ function pro() {
   });
 }
 
+
+const hey = pro()
+  .then((data) => {
+	  outpu.innerText = data;
+  })
+  .catch((err) => {
+    console.log(err);
+  });
